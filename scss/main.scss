@@ -1,0 +1,12 @@
+@import 'config';
+@import 'form';
+
+body {
+    font-family: 'HelveticaNeue', 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $primary-color;
+    background-image: radial-gradient(rgba(255,255,255,.21), rgba(0,0,0,.21));
+}
