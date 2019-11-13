@@ -1,5 +1,6 @@
 @import 'config';
 @import 'form';
+@import 'alerts';
 
 body {
     display: flex;
@@ -20,5 +21,6 @@ body {
 }
 
 h3 {
+    letter-spacing: .05rem;
     font-size: 0.87rem;
 }

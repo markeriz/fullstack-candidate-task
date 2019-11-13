@@ -1,0 +1,23 @@
+.alert {
+    display: none;
+    width: 100%;
+    max-width: 15.722rem;
+    font-size: 0.75rem;
+    text-shadow: none;
+
+    &.alert-danger {
+        color: red;
+    }
+
+    &.alert-success {
+        color: green;
+    }
+
+    &.alert-info {
+        color: cyan;
+    }
+
+    &.open {
+        display: inline-flex;
+    }
+}

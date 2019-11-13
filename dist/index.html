@@ -6,22 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LOGIN</title>
     <link rel="stylesheet" href="assets/css/main.min.css">
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </head>
 <body>
-    <form class="form-post" action="#" method="post">
+    <form class="form-post" method="post" onsubmit="submitForm();">
         <div class="form-head">
             <h3>Login Form</h3>
         </div>
         <div class="form-body">
             <div class="form-input-group">
-                <input class="form-input" type="text" placeholder="Email">
+                <input id="email" class="form-input" type="text" placeholder="Email" onkeypress="onPressKeyInput();" required>
                 <i class="user"></i>
             </div>
             <div class="form-input-group">
-                <input class="form-input" type="password" placeholder="Password">
+                <input id="password" class="form-input" type="password" placeholder="Password" onkeypress="onPressKeyInput();" required>
                 <i class="locked"></i>
             </div>
             <input class="form-btn" type="submit" value="Sign In">
+            <p id="alert" class="alert">test</p>
         </div>
     </form>
 </body>
